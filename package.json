@@ -1,0 +1,18 @@
+{
+  "name": "template-tag-loader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "node-html-parser": "^1.2.18",
+    "webpack": "^4.43.0"
+  },
+  "peerDependencies": {
+    "uid": "~1.0.0"
+  },
+  "devDependencies": {
+    "@types/loader-utils": "^2.0.0",
+    "@webpack-contrib/defaults": "^6.3.0",
+    "uid": "^1.0.0"
+  }
+}
