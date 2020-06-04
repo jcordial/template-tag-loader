@@ -1,4 +1,4 @@
-# template-tag-loader
+# Template Tag Loader
 A template tag loader for Webpack.
 
 Working with web components? Want to have modular templates for your components? Already using Webpack? Have I got 
@@ -35,7 +35,7 @@ Now in your code, you can import template HTML!
 
 Let's say you're building web components. Writing html templates to provide substance for those components can be a real
 chore. You can embed the template tag into the HTML document and access it via `document.getElementById`, but that 
-creates an air-gap between the template, and the Javascript that depends on it. It can work, but doesn't scale easily.
+creates an air-gap between the Javascript and the template it depends on. It *can* work, but doesn't scale easily.
 
 You can also write the template tag as a string directly in the Javascript. It brings the template closer to the code
 that depends on it, sure. But it's also big and dumb and ugly. It also doesn't play nicely with your code editor.
@@ -62,9 +62,9 @@ export default class Component extends HTMLElement {
     }
 }
 ```
-Now you get syntax highlighting for your html, and your Javascript. Nice.
+Now you get syntax highlighting for your html, and your Javascript. Nice!
 
 ### Caveats
 
-This is purpose built for what I was interested in seeing happen at the time. More features may come, they also may not,
-be reach out if you use this, or it you would like to see something added.
+This is purpose built for what I was interested in seeing happen at the time. More features may come, they also may not.
+Reach out if you use this.
